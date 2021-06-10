@@ -1,0 +1,133 @@
+//btn
+.btn-menu{
+    padding-left: 2rem;
+    padding-right: 2rem;
+    margin-left: 1rem;
+}
+
+.btn-form{
+    padding-left: 3rem;
+    padding-right: 3rem;
+}
+
+.btn-transparent{
+    border: 5px solid transparent;
+    &:hover{
+        border-bottom: 5px solid #FFDF65;
+    }
+}
+
+
+.border-bottom-primary{
+    border-bottom: 5px solid #FFDF65;
+}
+
+
+//utilities
+
+//font variable 
+$fSpacer:10px;
+
+//sh = small half
+.fs-sh{
+    font-size: $fSpacer *1.4;
+}
+
+.fs-m{
+    font-size: $fSpacer *2;
+}
+
+.fs-l{
+    font-size: $fSpacer *3;
+}
+//letter spacing
+
+$lsSpacer:1px;
+
+.ls-s{
+    letter-spacing: $lsSpacer;
+}
+.ls-m{
+    letter-spacing: $lsSpacer *2;
+}
+
+.ls-l{
+    letter-spacing: $lsSpacer *3;
+}
+
+
+//height
+
+$hSpacer:0.25rem;
+
+.h-s{
+    height: $hSpacer *7;
+}
+
+
+.h-m{
+height: $hSpacer *10;
+}
+
+//width
+
+$wSpacer: 0.25rem;
+
+.w-max-100{
+    max-width: 100%;
+}
+.w-s{
+    width: $wSpacer *6 ;
+}
+.w-m{
+    width: $wSpacer *7;
+}
+.w-mh{
+    width: $wSpacer *7.5 ;
+}
+
+//margin
+
+$mpSpacer:0.25rem;
+
+.mt-s{
+    margin-top: $mpSpacer *5;
+}
+//padding
+
+
+.pt-m{
+    padding-top: $mpSpacer *12;
+}
+
+.pb-m{
+    padding-bottom: $mpSpacer *12;
+}
+
+//border radius inherit the class name of bs5
+.rounded-4{
+    border-radius: 1rem;
+}
+.rounded-5{
+    border-radius: 1.8rem;
+}
+.rounded-6{
+    border-radius: 10rem;
+}
+
+.br-bottom-left-none{
+    border-bottom-left-radius: 0;
+}
+
+.br-bottom-right-none{
+    border-bottom-right-radius: 0;
+}
+//z-index follow the rule of bs5 sass
+
+.z-100{
+    z-index: 100;
+}
+
+.z-1050{
+    z-index: 1050;
+}
